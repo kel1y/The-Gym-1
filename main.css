@@ -92,3 +92,21 @@ footer {
   color: white;
   padding: 30px;
 }
+
+
+.about{
+  background-color: white;
+  height: 300px;
+}
+.headabout{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.bodyabout{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
