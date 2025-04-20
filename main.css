@@ -103,12 +103,15 @@ footer {
   display: flex;
   justify-content: center;
   margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 .bodyabout{
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-left: 80px;
+  margin-right: 80px;
   padding: 50px, 50px;
   text-align: center;
 }
