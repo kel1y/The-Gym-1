@@ -114,3 +114,24 @@ footer {
   margin-right: 80px;
   text-align: center;
 }
+
+.goals{
+  background-color: white;
+  height: 300px;
+}
+.headgoals{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+
+.bodygoals{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-left: 80px;
+  margin-right: 80px;
+  text-align: center;
+}
