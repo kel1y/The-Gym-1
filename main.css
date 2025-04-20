@@ -110,4 +110,5 @@ footer {
   display: flex;
   justify-content: center;
   padding: 50px, 50px;
+  text-align: center;
 }
