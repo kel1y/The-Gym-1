@@ -10,6 +10,10 @@
   max-width: 100%;
 }
 
+html {
+  scroll-behavior: smooth; /* This enables smooth scrolling for the entire page */
+}
+
 /* Write your code below this */
 
 .navbar {
@@ -25,6 +29,16 @@ li {
   margin: 0 12px;
 }
 
+.navbar-items a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.navbar-items a:hover {
+  color: #618379;
+}
 
 .hero {
   background-image: url('/images/hero.png');
@@ -97,7 +111,9 @@ footer {
 .about{
   background-color: white;
   height: 300px;
+  padding-top: 30px; /* Added padding to prevent content from being hidden under navbar */
 }
+
 .headabout{
   width: 100%;
   display: flex;
@@ -116,7 +132,9 @@ footer {
 .goals{
   background-color: white;
   height: 300px;
+  padding-top: 30px; /* Added padding to prevent content from being hidden under navbar */
 }
+
 .headgoals{
   width: 100%;
   display: flex;
