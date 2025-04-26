@@ -111,7 +111,6 @@ footer {
 .about{
   background-color: white;
   height: 300px;
-  padding-top: 30px; /* Added padding to prevent content from being hidden under navbar */
 }
 
 .headabout{
@@ -132,7 +131,6 @@ footer {
 .goals{
   background-color: white;
   height: 300px;
-  padding-top: 30px; /* Added padding to prevent content from being hidden under navbar */
 }
 
 .headgoals{
